@@ -1,0 +1,47 @@
+*********** subject
+this class brings all tweets of each user together into one single big file.
+
+*********** Details
+
+*** [14,21] at first it indexes all files in a given directory.
+
+*** [23, 44] each file contains the data of a specific user, in more details: user's id & name (in first object),
+	followers(in second object), friends(in third object) and all tweets that each one is in a seperate object.
+	for example a file that contains a user with 3 tweets is s.th like this:
+
+	[
+		{id, name},
+		{followers},
+		{friends},
+		{tweet-1},
+		{tweet-2},
+		{tweet-3},
+	]
+
+
+	NOTE: in some files, this array is duplicated, probably by mistake.
+
+	so here i filter this data into this json format:
+	[
+		id1: {
+			name1,
+			id1,
+			tweets: {
+				tweet1,
+				tweet2,
+				...
+			},
+			tweets_count
+		},
+		id2: {
+			name2,
+			id2,
+			tweets: {
+				tweet1,
+				tweet2,
+				...
+			},
+			tweets_count
+		},
+		...
+	]

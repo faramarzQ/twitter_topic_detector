@@ -1,2 +1,4 @@
 final_project-data/*
 test/*
+.gitignore
+__pycache__/

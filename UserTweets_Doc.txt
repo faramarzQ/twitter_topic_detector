@@ -22,26 +22,26 @@ this class brings all tweets of each user together into one single big file.
 	NOTE: in some files, this array is duplicated, probably by mistake.
 
 	so here i filter this data into this json format:
-	[
-		id1: {
+		{
+			id1: {
 			name1,
 			id1,
 			tweets: {
-				tweet1,
-				tweet2,
-				...
+			tweet1,
+			tweet2,
+			...
 			},
 			tweets_count
-		},
-		id2: {
+			},
+			id2: {
 			name2,
 			id2,
 			tweets: {
-				tweet1,
-				tweet2,
-				...
+			tweet1,
+			tweet2,
+			...
 			},
 			tweets_count
-		},
-		...
-	]
+			},
+			...
+		}

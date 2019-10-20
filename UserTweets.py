@@ -2,6 +2,7 @@
 
 import json
 import os
+import User
 
 
 #
@@ -10,37 +11,34 @@ import os
 
 class UsersTweets:
     def __init__(self):
-        
+
         # index files in one dir
         filesPaths = []
         path = './test'
-        # path = './final_project-data/twitter/data'
         for r, d, f in os.walk(path):
             for file in f:
                     if '.json' in file:
                         filesPaths.append(os.path.join(r, file))
 
         data = {}
+        data['urls_count'] = 0
+        data['users'] = {}
 
         # attach all tweets of each user in each file to a dict
         for file in filesPaths:
             with open(file) as jsonFile:
-
                 tempFile = json.load(jsonFile)
+                userObj = User.User()
+                userObj.initWithRawData(tempFile)
+                data['users'][userObj.getAttr('id')] = userObj.getAsDict()
+                data['urls_count'] += userObj.getAttr('urls_count')
+                del userObj
 
-                userID = tempFile[0]['id']
-                data[userID] = {}
-                data[userID]['id'] = tempFile[0]['id']
-                data[userID]['name'] = tempFile[0]['name']
-                data[userID]['tweets'] = []
-                data[userID]['tweets_count'] = 0
 
-                for i in range(len(tempFile)):
-                    if(i not in [0, 1, 2]):
-                        data[userID]['tweets'].append(tempFile[i])
-                        data[userID]['tweets_count'] += 1
+        with open("user_tweets.json", "w") as file:
+            json.dump(data, file)
 
-                with open('data.json', 'w') as outfile:
-                    json.dump(data, outfile)
+        # with open("user_tweets.json", "r") as file:
+        #     print(json.load(file))
 
 UsersTweets()

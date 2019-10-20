@@ -1,0 +1,107 @@
+{
+  "urls_count": 4,
+  "users": {
+    "dontradewitzach": {
+      "tweets": {
+        "2492519772": {
+          "text": "Don't trade with zach ever again! He won :(",
+          "id": 2492519772
+        },
+        "2491292506": {
+          "text": "Don't trade with Ben, he's winning!!!",
+          "id": 2491292506
+        },
+        "2491243144": {
+          "text": "Playing Settlers",
+          "id": 2491243144
+        },
+        "2606138073": {
+          "text": "Played settlers with zach at leland tea in SF. \"Everyone\" won!!",
+          "id": 2606138073
+        },
+        "2491622421": {
+          "text": "Ben's winning don't trade with Zach!!!",
+          "id": 2491622421
+        },
+        "2491560544": {
+          "text": "Rob zach",
+          "id": 2491560544
+        },
+        "2491510411": {
+          "text": "I don't have brick",
+          "id": 2491510411
+        },
+        "2491247623": {
+          "text": "(don't trade with zach)",
+          "id": 2491247623
+        },
+        "2629227597": {
+          "text": "Ooohh check out my new icon and profile page background image! :) [photos taken by \"the zach\"]",
+          "id": 2629227597
+        }
+      },
+      "urls_count": 0,
+      "id": "dontradewitzach",
+      "name": "Benjamin Rubinstein"
+    },
+    "stefanharmeling": {
+      "tweets": {
+        "259741002129108992": {
+          "text": "A for @davidwhogg: causal inf is more than inf of cond pdf since the latter doesn't express always a causal link, but possibly the opposite",
+          "id": 259741002129108992
+        },
+        "65723752633212928": {
+          "text": "hello, world!",
+          "id": 65723752633212928
+        },
+        "73664341798428672": {
+          "text": "report on How dirty is your data? from Greenpeace http://t.co/hfIMggu",
+          "urls": [{
+            "duplicate_number": 1,
+            "expanded_url": "http://www.greenpeace.org/international/en/publications/reports/How-dirty-is-your-data/",
+            "url": "http://t.co/hfIMggu"
+          }],
+          "id": 73664341798428672
+        },
+        "1156108529096364033": {
+          "text": "@NandoDF Since 2007 there is a company in Finland founded by Harri Valpola:  https://t.co/Noi0jJ1Jh3",
+          "urls": [{
+            "duplicate_number": 1,
+            "expanded_url": "https://zenrobotics.com",
+            "url": "https://t.co/Noi0jJ1Jh3"
+          }],
+          "id": 1156108529096364033
+        },
+        "65734683073318912": {
+          "text": "#Bayes Non-Parametrics: e.g.Gaussian process, Dirichlet process.  The parameters are funcs or there are as many params as data points. #cmml",
+          "id": 65734683073318912
+        },
+        "65769229667926016": {
+          "text": "@joezuntz @driainmurray possibly http://tinyurl.com/6dho87f can autodiff fortran code. haven't tried it yet.",
+          "id": 65769229667926016
+        },
+        "373763404709642240": {
+          "text": "#MLSS2013 map for the hike http://t.co/ZcVQRGoF3T",
+          "urls": [{
+            "duplicate_number": 1,
+            "expanded_url": "http://webdav.is.mpg.de/pixel/hike.pdf",
+            "url": "http://t.co/ZcVQRGoF3T"
+          }],
+          "id": 373763404709642240
+        },
+        "373762995819540480": {
+          "text": "#MLSS 2013 map for the hike http://t.co/ZcVQRGoF3T",
+          "urls": [{
+            "duplicate_number": 1,
+            "expanded_url": "http://webdav.is.mpg.de/pixel/hike.pdf",
+            "url": "http://t.co/ZcVQRGoF3T"
+          }],
+          "id": 373762995819540480
+        }
+      },
+      "urls_count": 4,
+      "id": "stefanharmeling",
+      "name": "Stefan Harmeling"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "dontradewitzach": {
+    "urls_count": 1,
+    "tweets": {
+      "2491510411": {
+        "id": 2491510411
+      },
+      "2491622421": {
+        "id": 2491622421
+      },
+      "2491243144": {
+        "id": 2491243144
+      },
+      "2629227597": {
+        "urls": [{
+          "expanded_url": "http://webdav.is.mpg.de/pixel/hike.pdf",
+          "duplicate_number": 3,
+          "IDF": 0.7369655941662062,
+          "url": "http://t.co/ZcVQRGoF3T"
+        }],
+        "id": 2629227597
+      },
+      "2492519772": {
+        "id": 2492519772
+      },
+      "2491560544": {
+        "id": 2491560544
+      },
+      "2491247623": {
+        "id": 2491247623
+      },
+      "2606138073": {
+        "id": 2606138073
+      },
+      "2491292506": {
+        "id": 2491292506
+      }
+    },
+    "name": "Benjamin Rubinstein",
+    "id": "dontradewitzach"
+  },
+  "stefanharmeling": {
+    "urls_count": 4,
+    "tweets": {
+      "65769229667926016": {
+        "id": 65769229667926016
+      },
+      "73664341798428672": {
+        "urls": [{
+          "expanded_url": "http://www.greenpeace.org/international/en/publications/reports/How-dirty-is-your-data/",
+          "duplicate_number": 1,
+          "IDF": 2.321928094887362,
+          "url": "http://t.co/hfIMggu"
+        }],
+        "id": 73664341798428672
+      },
+      "373763404709642240": {
+        "urls": [{
+          "expanded_url": "http://webdav.is.mpg.de/pixel/hike.pdf",
+          "duplicate_number": 2,
+          "IDF": 1.3219280948873624,
+          "url": "http://t.co/ZcVQRGoF3T"
+        }],
+        "id": 373763404709642240
+      },
+      "65734683073318912": {
+        "id": 65734683073318912
+      },
+      "1156108529096364033": {
+        "urls": [{
+          "expanded_url": "https://zenrobotics.com",
+          "duplicate_number": 1,
+          "IDF": 2.321928094887362,
+          "url": "https://t.co/Noi0jJ1Jh3"
+        }],
+        "id": 1156108529096364033
+      },
+      "65723752633212928": {
+        "id": 65723752633212928
+      },
+      "259741002129108992": {
+        "id": 259741002129108992
+      },
+      "373762995819540480": {
+        "urls": [{
+          "expanded_url": "http://webdav.is.mpg.de/pixel/hike.pdf",
+          "duplicate_number": 2,
+          "IDF": 1.3219280948873624,
+          "url": "http://t.co/ZcVQRGoF3T"
+        }],
+        "id": 373762995819540480
+      }
+    },
+    "name": "Stefan Harmeling",
+    "id": "stefanharmeling"
+  }
+}

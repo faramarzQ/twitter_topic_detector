@@ -1,5 +1,9 @@
 import os
 import math
+import nltk
+import StopWordsSingleton
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
 
 """
     Tweet Class
@@ -9,8 +13,9 @@ class Tweet:
     def __init__(self, tweet):
         self.id = ''
         # in_reply_to_user_id = None
+        self.stoppedText = ''
+        self.POSedText = []
         self.text = ''
-        self.text_array = []
         self.hastags = []
         self.urls = []
         self.urls_count = 0
@@ -23,7 +28,7 @@ class Tweet:
         # self.hashtags = tweet['hashtags']
 
         self.id = tweet['id']
-        self.setText(tweet['text'])
+        self.filterAndSetText(tweet['text'])
         if 'urls' in tweet:
             self.urls = tweet['urls']
             urlCount = 0
@@ -33,11 +38,21 @@ class Tweet:
                 urlCount += 1
             self.urls_count += urlCount
 
-    def setText(self, text):
-        self.text = text
-        textArray = text.split()
-        self.text_array = textArray
-        # remove stop and non-english words here
+    def filterAndSetText(self, text):
+        stoppedText = self.removeStopWordsFromText(text)
+        POSedText = self.POSTagText(stoppedText)
+        self.rawText = text
+        self.POSedText = POSedText
+        self.stoppedText = stoppedText
+
+    def removeStopWordsFromText(self, text):
+        stopWords = StopWordsSingleton.StopWords.getStopWords()
+        wordTokens = word_tokenize(text)
+        stoppedText = [w for w in wordTokens if not w in stopWords]
+        return stoppedText
+
+    def POSTagText(self, text):
+        return nltk.pos_tag(text)
 
     def getAttr(self, attrName):
         return getattr(self, attrName)
@@ -48,7 +63,9 @@ class Tweet:
     def getAsDict(self):
         dic = {}
         dic['id'] = self.id
-        dic['text'] = self.text
+        dic['stoppedText'] = self.stoppedText
+        dic['POSedText'] = self.POSedText
+        dic['rawText'] = self.rawText
         # dic['created_at'] = self.created_at
         # dic['hastags'] = self.hastags
 

@@ -1,107 +1,261 @@
 {
-  "urls_count": 4,
   "users": {
     "dontradewitzach": {
+      "name": "Benjamin Rubinstein",
       "tweets": {
-        "2492519772": {
-          "text": "Don't trade with zach ever again! He won :(",
-          "id": 2492519772
-        },
-        "2491292506": {
-          "text": "Don't trade with Ben, he's winning!!!",
-          "id": 2491292506
-        },
-        "2491243144": {
-          "text": "Playing Settlers",
-          "id": 2491243144
-        },
-        "2606138073": {
-          "text": "Played settlers with zach at leland tea in SF. \"Everyone\" won!!",
-          "id": 2606138073
-        },
-        "2491622421": {
-          "text": "Ben's winning don't trade with Zach!!!",
-          "id": 2491622421
-        },
-        "2491560544": {
-          "text": "Rob zach",
-          "id": 2491560544
+        "2629227597": {
+          "stoppedText": ["Ooohh", "check", "new", "icon", "profile", "page", "background", "image", "photos", "taken", "zach"],
+          "POSedText": [
+            ["Ooohh", "NNP"],
+            ["check", "VB"],
+            ["new", "JJ"],
+            ["icon", "NN"],
+            ["profile", "NN"],
+            ["page", "NN"],
+            ["background", "NN"],
+            ["image", "NN"],
+            ["photos", "NNS"],
+            ["taken", "VBN"],
+            ["zach", "NN"]
+          ],
+          "id": 2629227597,
+          "rawText": "Ooohh check out my new icon and profile page background image! :) [photos taken by \"the zach\"]"
         },
         "2491510411": {
-          "text": "I don't have brick",
-          "id": 2491510411
+          "stoppedText": ["I", "brick"],
+          "POSedText": [
+            ["I", "PRP"],
+            ["brick", "VBP"]
+          ],
+          "id": 2491510411,
+          "rawText": "I don't have brick"
+        },
+        "2491622421": {
+          "stoppedText": ["Ben", "winning", "trade", "Zach"],
+          "POSedText": [
+            ["Ben", "NNP"],
+            ["winning", "VBG"],
+            ["trade", "NN"],
+            ["Zach", "NNP"]
+          ],
+          "id": 2491622421,
+          "rawText": "Ben's winning don't trade with Zach!!!"
+        },
+        "2606138073": {
+          "stoppedText": ["Played", "settlers", "zach", "leland", "tea", "SF", "Everyone"],
+          "POSedText": [
+            ["Played", "NNP"],
+            ["settlers", "NNS"],
+            ["zach", "VBP"],
+            ["leland", "NN"],
+            ["tea", "NN"],
+            ["SF", "NNP"],
+            ["Everyone", "NN"]
+          ],
+          "id": 2606138073,
+          "rawText": "Played settlers with zach at leland tea in SF. \"Everyone\" won!!"
+        },
+        "2491560544": {
+          "stoppedText": ["Rob", "zach"],
+          "POSedText": [
+            ["Rob", "NNP"],
+            ["zach", "NN"]
+          ],
+          "id": 2491560544,
+          "rawText": "Rob zach"
+        },
+        "2491292506": {
+          "stoppedText": ["Do", "trade", "Ben", "winning"],
+          "POSedText": [
+            ["Do", "NNP"],
+            ["trade", "NN"],
+            ["Ben", "NNP"],
+            ["winning", "NN"]
+          ],
+          "id": 2491292506,
+          "rawText": "Don't trade with Ben, he's winning!!!"
+        },
+        "2491243144": {
+          "stoppedText": ["Playing", "Settlers"],
+          "POSedText": [
+            ["Playing", "VBG"],
+            ["Settlers", "NNS"]
+          ],
+          "id": 2491243144,
+          "rawText": "Playing Settlers"
         },
         "2491247623": {
-          "text": "(don't trade with zach)",
-          "id": 2491247623
+          "stoppedText": ["trade", "zach"],
+          "POSedText": [
+            ["trade", "NN"],
+            ["zach", "NN"]
+          ],
+          "id": 2491247623,
+          "rawText": "(don't trade with zach)"
         },
-        "2629227597": {
-          "text": "Ooohh check out my new icon and profile page background image! :) [photos taken by \"the zach\"]",
-          "id": 2629227597
+        "2492519772": {
+          "stoppedText": ["Do", "trade", "zach", "ever", "He"],
+          "POSedText": [
+            ["Do", "NNP"],
+            ["trade", "NN"],
+            ["zach", "NN"],
+            ["ever", "RB"],
+            ["He", "PRP"]
+          ],
+          "id": 2492519772,
+          "rawText": "Don't trade with zach ever again! He won :("
         }
       },
-      "urls_count": 0,
       "id": "dontradewitzach",
-      "name": "Benjamin Rubinstein"
+      "urls_count": 0
     },
     "stefanharmeling": {
+      "name": "Stefan Harmeling",
       "tweets": {
-        "259741002129108992": {
-          "text": "A for @davidwhogg: causal inf is more than inf of cond pdf since the latter doesn't express always a causal link, but possibly the opposite",
-          "id": 259741002129108992
-        },
         "65723752633212928": {
-          "text": "hello, world!",
-          "id": 65723752633212928
+          "stoppedText": ["hello", "world"],
+          "POSedText": [
+            ["hello", "NN"],
+            ["world", "NN"]
+          ],
+          "id": 65723752633212928,
+          "rawText": "hello, world!"
         },
-        "73664341798428672": {
-          "text": "report on How dirty is your data? from Greenpeace http://t.co/hfIMggu",
-          "urls": [{
-            "duplicate_number": 1,
-            "expanded_url": "http://www.greenpeace.org/international/en/publications/reports/How-dirty-is-your-data/",
-            "url": "http://t.co/hfIMggu"
-          }],
-          "id": 73664341798428672
-        },
-        "1156108529096364033": {
-          "text": "@NandoDF Since 2007 there is a company in Finland founded by Harri Valpola:  https://t.co/Noi0jJ1Jh3",
-          "urls": [{
-            "duplicate_number": 1,
-            "expanded_url": "https://zenrobotics.com",
-            "url": "https://t.co/Noi0jJ1Jh3"
-          }],
-          "id": 1156108529096364033
-        },
-        "65734683073318912": {
-          "text": "#Bayes Non-Parametrics: e.g.Gaussian process, Dirichlet process.  The parameters are funcs or there are as many params as data points. #cmml",
-          "id": 65734683073318912
-        },
-        "65769229667926016": {
-          "text": "@joezuntz @driainmurray possibly http://tinyurl.com/6dho87f can autodiff fortran code. haven't tried it yet.",
-          "id": 65769229667926016
+        "259741002129108992": {
+          "stoppedText": ["A", "davidwhogg", "causal", "inf", "inf", "cond", "pdf", "since", "latter", "express", "always", "causal", "link", "possibly", "opposite"],
+          "POSedText": [
+            ["A", "DT"],
+            ["davidwhogg", "NN"],
+            ["causal", "NN"],
+            ["inf", "JJ"],
+            ["inf", "JJ"],
+            ["cond", "NN"],
+            ["pdf", "NN"],
+            ["since", "IN"],
+            ["latter", "JJR"],
+            ["express", "NN"],
+            ["always", "RB"],
+            ["causal", "VBZ"],
+            ["link", "NN"],
+            ["possibly", "RB"],
+            ["opposite", "JJ"]
+          ],
+          "id": 259741002129108992,
+          "rawText": "A for @davidwhogg: causal inf is more than inf of cond pdf since the latter doesn't express always a causal link, but possibly the opposite"
         },
         "373763404709642240": {
-          "text": "#MLSS2013 map for the hike http://t.co/ZcVQRGoF3T",
+          "stoppedText": ["MLSS2013", "map", "hike", "//t.co/ZcVQRGoF3T"],
           "urls": [{
-            "duplicate_number": 1,
             "expanded_url": "http://webdav.is.mpg.de/pixel/hike.pdf",
-            "url": "http://t.co/ZcVQRGoF3T"
+            "url": "http://t.co/ZcVQRGoF3T",
+            "duplicate_number": 1
           }],
-          "id": 373763404709642240
+          "POSedText": [
+            ["MLSS2013", "NNP"],
+            ["map", "NN"],
+            ["hike", "NN"],
+            ["//t.co/ZcVQRGoF3T", "NN"]
+          ],
+          "id": 373763404709642240,
+          "rawText": "#MLSS2013 map for the hike http://t.co/ZcVQRGoF3T"
+        },
+        "73664341798428672": {
+          "stoppedText": ["report", "How", "dirty", "data", "Greenpeace", "//t.co/hfIMggu"],
+          "urls": [{
+            "expanded_url": "http://www.greenpeace.org/international/en/publications/reports/How-dirty-is-your-data/",
+            "url": "http://t.co/hfIMggu",
+            "duplicate_number": 1
+          }],
+          "POSedText": [
+            ["report", "VB"],
+            ["How", "NNP"],
+            ["dirty", "JJ"],
+            ["data", "NNS"],
+            ["Greenpeace", "NNP"],
+            ["//t.co/hfIMggu", "NN"]
+          ],
+          "id": 73664341798428672,
+          "rawText": "report on How dirty is your data? from Greenpeace http://t.co/hfIMggu"
+        },
+        "65734683073318912": {
+          "stoppedText": ["Bayes", "Non-Parametrics", "e.g.Gaussian", "process", "Dirichlet", "process", "The", "parameters", "funcs", "many", "params", "data", "points", "cmml"],
+          "POSedText": [
+            ["Bayes", "NNP"],
+            ["Non-Parametrics", "NNP"],
+            ["e.g.Gaussian", "JJ"],
+            ["process", "NN"],
+            ["Dirichlet", "NNP"],
+            ["process", "NN"],
+            ["The", "DT"],
+            ["parameters", "NNS"],
+            ["funcs", "VBP"],
+            ["many", "JJ"],
+            ["params", "NNS"],
+            ["data", "VBP"],
+            ["points", "NNS"],
+            ["cmml", "VB"]
+          ],
+          "id": 65734683073318912,
+          "rawText": "#Bayes Non-Parametrics: e.g.Gaussian process, Dirichlet process.  The parameters are funcs or there are as many params as data points. #cmml"
+        },
+        "65769229667926016": {
+          "stoppedText": ["joezuntz", "driainmurray", "possibly", "//tinyurl.com/6dho87f", "autodiff", "fortran", "code", "tried", "yet"],
+          "POSedText": [
+            ["joezuntz", "NN"],
+            ["driainmurray", "NN"],
+            ["possibly", "RB"],
+            ["//tinyurl.com/6dho87f", "NNP"],
+            ["autodiff", "NN"],
+            ["fortran", "NN"],
+            ["code", "NN"],
+            ["tried", "VBD"],
+            ["yet", "RB"]
+          ],
+          "id": 65769229667926016,
+          "rawText": "@joezuntz @driainmurray possibly http://tinyurl.com/6dho87f can autodiff fortran code. haven't tried it yet."
+        },
+        "1156108529096364033": {
+          "stoppedText": ["NandoDF", "Since", "2007", "company", "Finland", "founded", "Harri", "Valpola", "//t.co/Noi0jJ1Jh3"],
+          "urls": [{
+            "expanded_url": "https://zenrobotics.com",
+            "url": "https://t.co/Noi0jJ1Jh3",
+            "duplicate_number": 1
+          }],
+          "POSedText": [
+            ["NandoDF", "NNP"],
+            ["Since", "IN"],
+            ["2007", "CD"],
+            ["company", "NN"],
+            ["Finland", "NNP"],
+            ["founded", "VBD"],
+            ["Harri", "NNP"],
+            ["Valpola", "NNP"],
+            ["//t.co/Noi0jJ1Jh3", "NN"]
+          ],
+          "id": 1156108529096364033,
+          "rawText": "@NandoDF Since 2007 there is a company in Finland founded by Harri Valpola:  https://t.co/Noi0jJ1Jh3"
         },
         "373762995819540480": {
-          "text": "#MLSS 2013 map for the hike http://t.co/ZcVQRGoF3T",
+          "stoppedText": ["MLSS", "2013", "map", "hike", "//t.co/ZcVQRGoF3T"],
           "urls": [{
-            "duplicate_number": 1,
             "expanded_url": "http://webdav.is.mpg.de/pixel/hike.pdf",
-            "url": "http://t.co/ZcVQRGoF3T"
+            "url": "http://t.co/ZcVQRGoF3T",
+            "duplicate_number": 1
           }],
-          "id": 373762995819540480
+          "POSedText": [
+            ["MLSS", "NN"],
+            ["2013", "CD"],
+            ["map", "NN"],
+            ["hike", "NN"],
+            ["//t.co/ZcVQRGoF3T", "NN"]
+          ],
+          "id": 373762995819540480,
+          "rawText": "#MLSS 2013 map for the hike http://t.co/ZcVQRGoF3T"
         }
       },
-      "urls_count": 4,
       "id": "stefanharmeling",
-      "name": "Stefan Harmeling"
+      "urls_count": 4
     }
-  }
+  },
+  "urls_count": 4
 }

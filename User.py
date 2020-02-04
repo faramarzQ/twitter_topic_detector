@@ -3,7 +3,7 @@ import Tweet
 import json
 
 #
-#    User
+#    User Class
 #
 
 
@@ -40,7 +40,7 @@ class User:
     def getTweets(self):
         return self.tweets
 
-    # reutrns attribute of object
+    # reutrns an attribute value of object
     def getAttr(self, attrName):
         return getattr(self, attrName)
 
@@ -56,18 +56,14 @@ class User:
             dic['urls_count'] += self.tweets[index].getAttr('urls_count')
         return dic
 
-    # def calculateURLsSimilarityInSelf(self, entireURLsCount):
-    #     tweets = self.tweets
-    #     for tweet in tweets:
-    #         for targetTweet in tweets:
-
-
+    # calculates similarity of each tweet
     def calculateTweetsURLsSimilarity(self, targetUserObj, entireURLsCount):
         for tweetID in self.getAttr('tweets'):
             for targetTweetID in targetUserObj.getAttr('tweets'):
                 if self.getAttr('tweets')[tweetID].getAttr('urls') and targetUserObj.getAttr('tweets')[targetTweetID].getAttr('urls'):
                     self.getAttr('tweets')[tweetID].calculateURLsSimilarity(targetUserObj.getAttr('tweets')[targetTweetID], entireURLsCount)
 
+    # calculates IDF of each URL in every Tweet
     def calculateTweetURLsIDF(self, entireURLsCount):
         for tweetID in self.getAttr('tweets'):
             self.getAttr('tweets')[tweetID].calculateURLsIDF(entireURLsCount)

@@ -5,9 +5,9 @@ import json
 import User
 
 #
-#    calculates the IDF of each Tweet's URL in the entire Tweets
+#   Tweet URL IDF
+#   calculates the IDF of each Tweet's URL
 #
-
 
 class TweetURLIDF:
     def __init__(self):
@@ -42,5 +42,5 @@ class TweetURLIDF:
         with open("user_tweets_urls_idf.json", "w") as file:
             json.dump(DataWithURLsIDF, file)
 
-
+# start point of project
 TweetURLIDF()

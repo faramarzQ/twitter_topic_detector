@@ -4,15 +4,14 @@ import json
 import os
 import User
 
-
 #
-#    this Class indexes all tweets of users
+#    this Class indexes all user's tweets
 #
 
 class UsersTweets:
     def __init__(self):
 
-        # index files in one dir
+        # index files in a specific directory
         filesPaths = []
         path = './test'
         for r, d, f in os.walk(path):
@@ -24,7 +23,7 @@ class UsersTweets:
         data['urls_count'] = 0
         data['users'] = {}
 
-        # attach all tweets of each user in each file to a dict
+        # attach all tweets of each user in a seperate file as a json format
         for file in filesPaths:
             with open(file) as jsonFile:
                 tempFile = json.load(jsonFile)
@@ -34,11 +33,9 @@ class UsersTweets:
                 data['urls_count'] += userObj.getAttr('urls_count')
                 del userObj
 
-
         with open("user_tweets.json", "w") as file:
             json.dump(data, file)
 
-        # with open("user_tweets.json", "r") as file:
-        #     print(json.load(file))
 
+# app start point
 UsersTweets()

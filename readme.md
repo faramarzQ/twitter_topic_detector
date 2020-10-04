@@ -5,7 +5,7 @@ finds topic of Tweets on Twitter social media
 
 ---
 
-#### Programming Language:
+### Programming Language:
 This project/software is written in python, which is a proper choice for such a project with data analysis goal. software's paradigm is object oriented which helps to define and separates each definition on it's own and create related modules to interact with each other, on the other hand it also decreases the amount of code for each part and the project's execution time. also design patterns like Singleton pattern has been used so that objects can be optimised.
 
 ---
@@ -15,7 +15,7 @@ this project's data is Twitter's User, their Tweets, profile info. each tweet ha
 
 ---
 
-### descriptions:
+### Descriptions:
 Software has two starting points, **UserTweets.py** and **TweetURLIDF.py** which both are classes.
 
 - **Clean raw tweets in UsersTweets.py**:    

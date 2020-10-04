@@ -1,5 +1,5 @@
 # Topic detection
----
+
 #### SUBJECT:
 finds topic of Tweets on Twitter social media
 

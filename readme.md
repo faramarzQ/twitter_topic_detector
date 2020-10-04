@@ -1,6 +1,6 @@
 # Topic detection
 
-#### SUBJECT:
+### SUBJECT:
 finds topic of Tweets on Twitter social media
 
 ---
@@ -10,12 +10,12 @@ This project/software is written in python, which is a proper choice for such a 
 
 ---
 
-#### Data:
+### Data:
 this project's data is Twitter's User, their Tweets, profile info. each tweet has all the data which twitter is shows on it's application. an example of this data is on the project.
 
 ---
 
-#### descriptions:
+### descriptions:
 Software has two starting points, **UserTweets.py** and **TweetURLIDF.py** which both are classes.
 
 - **Clean raw tweets in UsersTweets.py**:    
@@ -38,7 +38,7 @@ first it creates object from each user and their tweet to make the process easy,
   run `./TweetURLIDF.py` in your terminal to execute the software. a 'user_tweets.json' file is the result.
 
 ---
-#### Note:
+### Note:
 1. input of this section needs to be compatable with what we created on the last part.    
 1. if you call for an attribute which you didn't attach to cleaned json file, it gives an error.
 1.this project is not complete, but it will be.

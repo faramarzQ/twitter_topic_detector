@@ -1,19 +1,12 @@
-# Topic detection
+# Twitter topic detector
 
-### SUBJECT:
-finds topic of Tweets on Twitter social media
+### Introduction:
+A topic detector application finds best and most close topic to a tweet on twitter social media. It extracts tweet's text, hashtags, urls, etc, then
+removes stop words, implements POS tags and vectorizes them. The topic is the mean of the vectors in a n-dimensional space.
 
----
-
-### Programming Language:
-This project/software is written in python, which is a proper choice for such a project with data analysis goal. software's paradigm is object oriented which helps to define and separates each definition on it's own and create related modules to interact with each other, on the other hand it also decreases the amount of code for each part and the project's execution time. also design patterns like Singleton pattern has been used so that objects can be optimised.
-
----
 
 ### Data:
 this project's data is Twitter's User, their Tweets, profile info. each tweet has all the data which twitter is shows on it's application. an example of this data is on the project.
-
----
 
 ### Descriptions:
 Software has two starting points, **UserTweets.py** and **TweetURLIDF.py** which both are classes.
